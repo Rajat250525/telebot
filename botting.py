@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 OWNER_ID = 7294913764 # Replace with your actual Telegram ID
-TOKEN = "bot token"
+TOKEN = "bot_token"
 
 total = 0
 
