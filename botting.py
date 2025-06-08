@@ -1,8 +1,10 @@
+import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 OWNER_ID = 7294913764 # Replace with your actual Telegram ID
-TOKEN = "bot_token"
+TOKEN = os.getenv("BOT_TOKEN")  # Fetch from environment variable
+
 
 total = 0
 
