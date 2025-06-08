@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-OWNER_ID = 7294913764  # Replace with your actual Telegram ID
-TOKEN = "8031248332:AAFkWRXZKkF4usbYFZi8F6OAv3NABYYgWa8"
+OWNER_ID = 7294913764 # Replace with your actual Telegram ID
+TOKEN = "bot token"
 
 total = 0
 
